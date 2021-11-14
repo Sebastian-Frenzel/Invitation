@@ -1,0 +1,2 @@
+# unlockPC
+ fast lock pc
