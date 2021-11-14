@@ -1,1 +1,1 @@
-var password = "Weiterdenken";
+var password = "weiterdenken";
