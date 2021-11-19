@@ -36,15 +36,12 @@ class Scene1 extends Phaser.Scene {
   }
 
   listenerManager(){
-    let lastTime = 0;
-    openProgramClickZone.on("pointerdown", ()=>{
-      let clickDelay = this.time.now - lastTime;
-      lastTime = this.time.now;
-      if(clickDelay < 350) {
+      openProgramClickZone.on("pointerdown", ()=>{
+      
         scene1Bg1.visible            = false;
         openProgramClickZone.visible = false;
         scene1Bg2.visible            = true;
-      }
+      
     });
 
     this.input.keyboard.on('keycombomatch', function (event) {
