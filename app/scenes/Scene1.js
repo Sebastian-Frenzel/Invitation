@@ -21,7 +21,7 @@ class Scene1 extends Phaser.Scene {
   create () {
     scene1Bg1            = this.add.image(centerX, centerY, 'scene1Bg1').setDisplaySize(this.sys.canvas.width ,this.sys.canvas.height);
     scene1Bg2            = this.add.image(centerX, centerY, 'scene1Bg2').setDisplaySize(this.sys.canvas.width ,this.sys.canvas.height);
-    openProgramClickZone = this.add.image(30, 31, 'transpImg').setDisplaySize(166, 166).setOrigin(0).setInteractive({useHandCursor: true});
+    openProgramClickZone = this.add.image(30, 31, 'transpImg').setDisplaySize(200, 200).setOrigin(0).setInteractive({useHandCursor: true});
 
     scene1Bg2.visible = false;
 
